@@ -42,6 +42,8 @@ public class TransitStopsDataConverter implements DataConverter {
 	private static final Map<String,String[]> descriptors = new HashMap<String, String[]>(); 
 			
 	static {
+		descriptors.put("5", new String[]{"5","Verona/Bolzano station ", "Train station "});
+		descriptors.put("6", new String[]{"6","Trento/Bassano station ", "Train station "});
 		descriptors.put("10", new String[]{"10","Trento/Male station ", "Train station "});
 		descriptors.put("12", new String[]{"12","Trentino Trasporti bus stop ", "Bus stop "});
 	}
