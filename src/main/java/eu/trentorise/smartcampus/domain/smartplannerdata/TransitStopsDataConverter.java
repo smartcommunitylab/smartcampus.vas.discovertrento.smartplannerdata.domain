@@ -47,6 +47,7 @@ public class TransitStopsDataConverter implements DataConverter {
 		descriptors.put("10", new String[]{"10","Trento/Male station ", "Train station "});
 		descriptors.put("12", new String[]{"12","Trentino Trasporti bus stop ", "Bus stop "});
 		descriptors.put("17", new String[]{"17","Trentino Trasporti bus stop ", "Bus stop "});
+		descriptors.put("16", new String[]{"16","Rovereto urbano bus stop ", "Bus stop "});
 	}
 	
 	@Override
