@@ -77,5 +77,6 @@ DomainObject SmartPlannerTransitStopsService implements POIService {
         invoke subscribeLocations("5");        
         invoke subscribeLocations("6");        
         invoke subscribeLocations("17");        
+        invoke subscribeLocations("16");        
     }
 }
